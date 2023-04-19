@@ -30,7 +30,7 @@ export const Header: FunctionComponent = () => {
         </FromTheTopAnimation>
         <div className="grid grid-cols-2 gap-4 lg:gap-6 items-center text-center">
           <FromTheLeftAnimation delay={1.25}>
-            <div className="bg-[#FFCB6B80] p-4 text-sm font-semibold rounded-lg border-2 xl:text-lg">
+            <div className="bg-[#FFCB6B80] p-4 text-sm font-semibold rounded-lg border-2 border-[#ffcb6b00] xl:text-lg">
               <Link href="">Get in touch</Link>
             </div>
           </FromTheLeftAnimation>
