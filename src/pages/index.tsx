@@ -1,6 +1,5 @@
+import { BaseLayout } from "@/common/layout";
+
 export default function Home() {
-  return (
-    <main>
-    </main>
-  )
+  return <BaseLayout></BaseLayout>;
 }
