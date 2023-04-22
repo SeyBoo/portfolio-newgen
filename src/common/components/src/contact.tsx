@@ -63,6 +63,8 @@ export const Contact: FunctionComponent = () => {
                 placeholder="Add a brief of your project"
                 required
                 name="message"
+                className="resize-none"
+                rows={4}
               ></textarea>
               <hr />
             </div>
