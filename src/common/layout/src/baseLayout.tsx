@@ -8,7 +8,7 @@ export const BaseLayout: FunctionComponent<PropsWithChildren> = ({
 }) => {
   return (
     <div className="bg-[#F6E7CB] min-h-screen h-full overflow-hidden">
-      <div className="max-w-[95%] lg:max-w-[90%] m-auto 3xl:max-w-[1860px]">
+      <div>
         <Nav />
         <Header />
         <main>{children}</main>
