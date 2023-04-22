@@ -11,7 +11,7 @@ import { FunctionComponent } from "react";
 
 export const Header: FunctionComponent = () => {
   return (
-    <header className="flex flex-col gap-4 -mt-10 lg:gap-6 lg:grid lg:grid-cols-2 lg:items-center max-w-[95%] lg:max-w-[90%] m-auto 3xl:max-w-[1860px]">
+    <header className="flex flex-col gap-4 -mt-10 lg:mt-0 lg:pb-10 lg:gap-6 lg:grid lg:grid-cols-2 lg:items-center max-w-[95%] lg:max-w-[90%] m-auto 3xl:max-w-[1860px]">
       <ZoomInAnimation delay={0.1}>
         <Lottie animationData={groovyWalkAnimation} loop={true} />
       </ZoomInAnimation>

@@ -3,15 +3,15 @@ import { FunctionComponent } from "react";
 
 export const Contact: FunctionComponent = () => {
   return (
-    <div className="bg-[#F7F7F8] px-4 py-10 mt-10 text-[#272E35]">
+    <div className="bg-[#F7F7F8] px-4 py-10 md:py-28 mt-10 text-[#272E35]">
       <div className="3xl:max-w-[1860px] m-auto">
         <FromTheTopAnimation>
-          <h6 className="text-[#DD9787] text-2xl 3xl:text-4xl text-center font-bold">
+          <h6 className="text-[#DD9787] text-2xl md:text-3xl 3xl:text-4xl text-center font-bold">
             Contact me today & let&apos;s get started
           </h6>
         </FromTheTopAnimation>
         <form
-          className="rounded-2xl bg-white px-4 py-8 mt-6 flex flex-col gap-6 shadow-lg max-w-lg m-auto"
+          className="rounded-2xl bg-white px-4 py-8 mt-6 md:mt-14 flex flex-col gap-6 shadow-lg max-w-lg m-auto"
           method="POST"
           action="https://api.web3forms.com/submit"
         >
@@ -73,7 +73,7 @@ export const Contact: FunctionComponent = () => {
             <input
               type="submit"
               value="Send"
-              className="bg-[#FFCB6B80] text-[#DD9787] w-full rounded-xl text-lg py-3 font-medium mt-2"
+              className="bg-[#FFCB6B80] text-[#DD9787] w-full rounded-xl text-lg py-3 font-medium mt-2 cursor-pointer"
             />
           </FromTheTopAnimation>
         </form>
